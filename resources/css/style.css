@@ -15,9 +15,14 @@ header {
 
 }
 
+a {
+  color: seashell;
+}
+
 .logo {
   height: 50px;
   margin-left: 10px;
+  padding-top: 10px;
 }
 
 .links li {
@@ -26,4 +31,76 @@ header {
   list-style: none;
   text-decoration: underline;
   margin-right: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+#missions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  flex-direction: column;
+  background-color: black;
+}
+
+#missions, .main-banner {
+  background-image: url("/Users/omondisadia/Documents/Code/TeaCozy/resources/images/img-mission-background.jpg"
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#missions .belt {
+  display: flex;
+  background-color: black;
+  border: 1px solid black
+  height: 50px;
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.belt h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.belt h4 {
+  margin-bottom: 10px;
+}
+
+#tea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1000px;
+  border: 1px solid white;
+  margin: 50px auto;
+}
+
+.images {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+}
+
+.caption {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
 }
