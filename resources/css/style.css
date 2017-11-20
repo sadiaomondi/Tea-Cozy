@@ -55,7 +55,7 @@ a {
 }
 
 #missions, .main-banner {
-  background-image: url("/Users/omondisadia/Documents/Code/TeaCozy/resources/images/img-mission-background.JPG"
+  background-image: url("../images/img-mission-background.jpg"
   );
   background-repeat: no-repeat;
   background-position: center;
@@ -123,7 +123,7 @@ figure {
 }
 
 #location, .main-banner {
-  background-image: url("/Users/omondisadia/Documents/Code/TeaCozy/resources/images/img-locations-background.JPG"
+  background-image: url("../images/img-locations-background.jpg"
   );
   background-repeat: no-repeat;
   background-position-y: 20%;
